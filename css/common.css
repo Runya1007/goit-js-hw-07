@@ -161,3 +161,27 @@ li {
 .login-form > button:focus {
   background-color: #6c8cff;
 }
+
+.widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.widget p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.change-color {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #4e75ff;
+  color: #fff;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
