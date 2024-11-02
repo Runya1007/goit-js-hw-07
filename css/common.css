@@ -78,3 +78,19 @@ li {
   color: #2e2f42;
   font-family: "Montserrat", sans-serif;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  list-style: none;
+  padding-top: 50px;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.nature {
+  width: 360px;
+  height: 300px;
+}
+
