@@ -185,3 +185,63 @@ li {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  width: fit-content;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+#controls > input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  background-color: transparent;
+}
+
+#controls > button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  transition: background-color 250ms linear;
+  cursor: pointer;
+}
+
+#controls > button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#controls > button[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#controls > button[data-create]:hover {
+  background-color: #6c8cff;
+}
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  background-color: #f6f6fe;
+}
